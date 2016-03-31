@@ -1,5 +1,7 @@
 # gitlab-ci-for-1c
 
+[![Join the chat at https://gitter.im/nixel2007/gitlab-ci-for-1c](https://badges.gitter.im/nixel2007/gitlab-ci-for-1c.svg)](https://gitter.im/nixel2007/gitlab-ci-for-1c?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Готовый упрощенный шаблон для начального разворачивания обновления конфигурации и дополнительных отчетов и обработок для 1С:Предприятие 8 на Gitlab CI.
 
 ## Принципы работы (разработка)
