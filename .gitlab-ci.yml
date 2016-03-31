@@ -1,0 +1,23 @@
+stages:
+  - test
+  - deploy
+
+before_script:
+  - chcp 65001
+  - git config --local core.quotepath false
+  - git submodule update --init --recursive
+  - oscript -encoding=utf-8 scripts\ci_before_script.os
+
+deploy:
+    stage: deploy
+    script:
+      - oscript -encoding=utf-8 scripts\ci_deploy.os
+    only:
+      - master
+
+test:
+    stage: test
+    script:
+      - oscript -encoding=utf-8 scripts\test_CanCompile.os
+    only:
+      - develop

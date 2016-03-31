@@ -1,0 +1,6 @@
+[submodule "vendor/oscript-library"]
+	path = vendor/oscript-library
+	url = https://github.com/EvilBeaver/oscript-library.git
+[submodule "vendor/precommit1c"]
+	path = vendor/precommit1c
+	url = https://github.com/xDrivenDevelopment/precommit1c.git

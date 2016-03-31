@@ -1,0 +1,10 @@
+# Вывод ошибок oscript
+log.txt
+
+# Временная база oscript
+v8r_TempDB/
+
+# Исключение файлов дополнительных отчетов и обработок из git
+processings/**
+!processings/.gitkeep
+!processings/README.md
